@@ -1,24 +1,6 @@
 <h1>Hello</h1>
 
 <div class="play-container">
-  <p>You clicked <span (click)="countClick()">this</span> {{ clickCounter }} times </p>
-</div>
-
-<div class="play-container">
-  <p>
-    <input type="text" [(ngModel)]="name">
-    <br>
-    <strong>You said</strong> {{ name }}
-  </p>
-</div>
-
-<div class="play-container" [ngClass]="setClasses()">
-  <ng-template [ngIf]="clickCounter > 4" [ngIfElse]="none">
-    <p>Oh yeah clicks</p>
-  </ng-template>
-
-  <ng-template #none>
-    <p>No clicks</p>
-  </ng-template>
-
+  Welcome to the Brewaries app.
+  Click the Brewaries Tab to view many brewaries :-P.
 </div>
