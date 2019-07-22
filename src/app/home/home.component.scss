@@ -14,5 +14,14 @@ span {
   input {
     padding: 1em;
     margin-bottom: 2em;
+    user-select: none;
   }
+}
+
+.active {
+  background-color: lightblue;
+}
+
+.notactive {
+  background-color: lightgray;
 }
